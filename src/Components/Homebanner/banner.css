@@ -3,5 +3,18 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 200px 100px 150px;
+    padding: 200px 0px 150px 100px;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 575.98px) {
+    #banner{
+        padding: 150px 0 120px 20px;
+    }
+    #banner p{
+        font-size: 14px;
+    }
+    #banner h1{
+        font-size: 32px;
+        line-height: 40px;
+    }
 }
