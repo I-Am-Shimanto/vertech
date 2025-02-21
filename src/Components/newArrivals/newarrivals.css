@@ -1,0 +1,17 @@
+#newarrivals {
+    margin-bottom: 80px;
+}
+#newarrivals .cart{
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: ease-in-out .4s;
+}
+#newarrivals .single_card:hover .cart{
+    bottom: 10px;
+    visibility: visible;
+    opacity: 1;
+}
